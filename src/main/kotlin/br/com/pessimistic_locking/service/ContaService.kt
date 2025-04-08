@@ -38,5 +38,4 @@ class ContaService(
             throw RuntimeException("Conflito detectado: os dados foram modificados por outra transação.")
         }
     }
-
 }
